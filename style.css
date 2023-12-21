@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  background-color: #f5f5f5;
+  gap: 100px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#right {
+  margin-left: auto;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;;
+}
+
+#left > h1 {
+  margin-bottom: 10px;
+  color: #0073cf;
+  font-size: 40px;
+}
+
+#right > form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #d3d3d3;
+}
+
+.full-length {
+  width: 100%;
+}
+
+#right > form > input {
+  outline: none;
+  border: 2px solid #f5f5f5;
+  box-sizing: border-box;
+}
+
+#right > form > input:focus,
+#right > form > input:active {
+  border:1px solid #00aae4;
+}
+
+.h {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#right button {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit-btn {
+  background-color: #00aae4;
+  border: none;
+}
+
+#create-btn {
+  background-color: #66b032;
+  border: none;
+  margin-top: 10px;
+}
+
+#right a {
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #00aae4;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+#right p {
+  font-size: 14px;
+  align-self: center;
+}
+
+#left p {
+  font-size: 18px;
+}
