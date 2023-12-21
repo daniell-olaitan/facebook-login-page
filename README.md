@@ -1,0 +1,1 @@
+This repo hosts the UI for facebook login page. It is meant for practice.
